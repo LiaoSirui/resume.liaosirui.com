@@ -1,0 +1,151 @@
+baseURL      = "https://resume.liaosirui.com/"
+languageCode = "en-us"
+title        = "廖思睿的简历"
+
+disable404     = true
+disableRSS     = true
+disableSitemap = true
+
+[params]
+    author      = "Sirui Liao"
+    description = "Sirui Liao's Resume"
+    styles      = "styles-6.css"
+
+    [params.profile]
+        avatar  = "srliao.png"
+        en_name = "Sirui Liao"
+        name    = "廖思睿"
+        tagline = "后台开发工程师"
+
+    [params.contact]
+        enable = true
+
+        [[params.contact.list]]
+            class = "email"
+            icon  = "fa-sex"
+            title = "性别/年龄: 男 25"
+            url   = ""
+
+        [[params.contact.list]]
+            class = "email"
+            icon  = "fa-envelope"
+            title = "Email: cyril@liaosirui.com"
+            url   = "mailto: cyril@liaosirui.com"
+
+        [[params.contact.list]]
+            class = "email"
+            icon  = "fa-phone"
+            title = "联系电话: 13018213369"
+            url   = "tel:+86 13018213369"
+
+        [[params.contact.list]]
+            class = "email"
+            icon  = "fa-blog"
+            title = "个人博客: blog.liaosirui.com"
+            url   = "https://github.com/LiaoSirui/blog.liaosirui.com"
+
+[params.education]
+    enable = true
+    title  = "Education"
+
+    [[params.education.list]]
+        college = "成都理工大学"
+        dates   = "2016.09 - 2020.06"
+        degree  = "物联网工程 本科"
+        gpa     = "GPA: 3.6/5.0(专业前 10%)"
+
+    [[params.education.list]]
+        college = "四川省绵阳南山中学"
+        dates   = "2013.09 - 2016.06"
+        degree  = "高中"
+
+[params.language]
+    enable = true
+    title  = "Languages"
+
+    [[params.language.list]]
+        language = "英语四级"
+        level    = "564分"
+
+    [[params.language.list]]
+        language = "英语六级"
+        level    = "423分"
+
+[params.interests]
+    enable = true
+    title  = "Interests"
+
+    [[params.interests.list]]
+        interest = "（1）容器相关：Docker / K8s / Docker Compose"
+
+    [[params.interests.list]]
+        interest = "（2）Linux 基础，了解 Centos / Alpine"
+
+    [[params.interests.list]]
+        interest = "（3）Python 编程: Fastapi / Django 等框架"
+
+    [[params.interests.list]]
+        interest = "（4）Golang 编程: Gin / Gorm"
+
+    [[params.interests.list]]
+        interest = "（5）运维与监控：Ansible / Sealos / Prometheus + Grafana"
+
+[params.summary]
+    enable  = true
+    icon    = "fa-user"
+    summary = "**3 年工作经验，了解常用的Redis、MongoDB、Postgres、MySQL数据库，熟悉容器技术。** 毕业于成都理工大学，获得成都理工大学荣誉学士学位（优等生学位），获得成都理工大学优秀毕业生，主修课程：程序设计基础(C++)、JAVA程序开发、数据结构、操作系统、计算机网络、计算机组成原理、离散数学、嵌入式Linux开发、数据库原理等。"
+    title   = "Career Profile"
+
+[params.experiences]
+    enable = true
+    icon   = "fa-briefcase"
+    title  = "Experiences"
+
+[[params.jobs.list]]
+    company  = "成都宽邦科技"
+    dates    = "2020.12 - 至今"
+    details  = "在职期间参与公司产品研发与项目，包括 BigQuant AI 量化平台（产品）、建设银行人工智能平台项目、建设银行量化平台项目、中信建投AI量化平台项目。负责后端开发工作和维护，主要技术栈：Docker、K8s、Golang、Gin、Fastapi、Django、Python、Java、Prometheus、Grafana等。"
+    position = "后端开发工程"
+[[params.jobs.list]]
+    company  = "北京凝思软件股份有限责任公司四川分公司"
+    dates    = "2020.06 - 2020.11"
+    details  = "在职期间参与公司新开发的凝思安全容器系统项目，负责底层网络实现，使用 **OpenVSwitch** 和 **Golang** 构建容器运行的网络环境，提供网络流量控制等功能；在项目中使用 MySQL 双主 + DRBD 实现双机高可用。"
+    position = "软件开发工程师"
+
+[params.projects]
+    enable = true
+    icon   = "fa-archive"
+    title  = "Projects"
+
+    [[params.projects.list]]
+        tagline = "（1）参与公司后端重构，调研 Fastapi 并单独完成了一个初版，封装了数据库基础操作、数据库会话管理、Grpc 调用等功能。（2）参与公司 bfs 存储产品管理面板的开发，使用 fastapi + influxdb（3）参与线上AI任务的开发，基于 Golang/Gin + client-go 实现 AI 任务配置、下发、状态管理等功能（4）基于 CentOS 和 Alpine 重构公司镜像栈，引入 Poetry Nutia 等 Python 工具；引入 Artifactory 制品库替代 Harbor，并完成 npm、centos、Pypi 等源的缓存（5）优化网关，使用 OpenResty + Lua + Redis 实现高性能的网关服务。"
+        title   = "BigQuant AI 量化平台（产品）"
+        url     = "https://bigquant.com/"
+
+    [[params.projects.list]]
+        tagline = "建投人工智能云平台包括量化策略平台的开发运营和PAAS平台的运营维护，为用户提供开发环境。作为项目负责人主持该项目，主要工作：（1）推进中信建投 PaaS 平台建设，完成 ELK 日志系统、Prometheus 监控、Openshift console + k8s、Keycloak 统一鉴权（2）负责中信建投信创项目，适配国产化硬件平台和操作系统（3）为中信建投 AI SaaS 量化平台制定升级计划，并全程主导数据和服务的迁移、升级工作"
+        title   = "中信建投AI量化平台项目"
+        url     = ""
+
+
+    [[params.projects.list]]
+        tagline = "天权人工智能平台是面向AI开发者，从AI模型生产到应用的一站式平台包括数据管理、模型开发、模型管理、部署&服务。主要工作：（1）使用 Python Tornado 框架，完成用户开发环境中与 Git 仓库的对接（2）使用 golang + client—go 完成用户构建镜像任务的分发和管理（3）单独负责量化平台项目(基于公司产品)，完成其用户体系对接工作、以及其他定制化开发工作、部署和维护工作，使用 Ansible 部署服务"
+        title   = "建设银行人工智能平台项目 & 建设银行量化平台项目"
+        url     = "http://ai.tech.ccb.com/#/home"
+
+    [[params.projects.list]]
+        tagline = "凝思安全容器系统软件是基于凝思安全操作系统完全自主研发，具备容器隔离特性的容器产品，同时采用了一系列的安全技术避免了现有容器技术的安全风险。主要工作：负责底层网络实现，使用 **OpenVSwitch** 和 **Golang** 构建容器运行的网络环境，提供网络流量控制等功能"
+        title   = "凝思安全容器系统"
+        url     = "http://www.linx-info.com/#/support/document"
+
+[params.skills]
+    enable = false
+    icon   = "fa-rocket"
+    title  = "Skills & Proficiency"
+
+    [[params.skills.list]]
+        level = "98%"
+        skill = "Python & Django"
+
+[params.footer]
+    copyright = "备案号: 蜀ICP备17003301号-1"
