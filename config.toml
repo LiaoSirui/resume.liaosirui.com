@@ -119,7 +119,7 @@ disableSitemap = true
     title  = "Experiences"
 
 [[params.jobs.list]]
-    company  = "成都宽邦科技"
+    company  = "成都宽邦科技有限公司"
     dates    = "2020.12 - 2022.10"
     details  = "在职期间参与公司产品研发与项目, 包括 BigQuant AI 量化平台 (产品) 及 B 端项目的维护。负责后端开发工作和维护, **主要技术栈: Kuberntes、Prometheus Stack、ES Log Stack、OpenTelementery / Jaeger、BeeGFS(并行文件系统)、Golang / Gin (Golang 开发)、Python / Fastapi / Django (Python 开发) 等**。"
     position = "后端开发工程 / 运维研发工程师"
@@ -135,8 +135,7 @@ disableSitemap = true
     title  = "Projects"
 
     [[params.projects.list]]
-        tagline = """
-BigQuant人工智能量化投资交易平台(https://bigquant.com), 包括量化策略平台的开发运营和 PAAS 平台的运营维护, 为用户提供开发环境。主要工作: 
+        tagline = """BigQuant人工智能量化投资交易平台(https://bigquant.com), 包括量化策略平台的开发运营和 PAAS 平台的运营维护, 为用户提供开发环境。主要工作: 
 
 (1) CI/CD 环境搭建与制品管理
 
@@ -144,7 +143,9 @@ BigQuant人工智能量化投资交易平台(https://bigquant.com), 包括量化
 
 ○ 使用 Nexus 和 Artifactory 管理内部镜像源，熟悉 Harbor 的搭建与维护，利用 Harbor 进行镜像管理
 
-(2) 开发 Kubernetes 管理面板
+(2) Kubernetes 基础和开发 Kubernetes 管理面板
+
+○ 熟悉 Kubernetes 基础以及 Docker / Containerd, 有过 Docker 升级至 Containerd 经验, 熟悉容器技术原理
 
 ○ 基于 OKD Console (OpenShift 的开源版本) 构建 Kubernetes 管理面板，进行深度定制，包括镜像管理和结合 Dex IdP 进行 OAuth 认证等的定制化开发和维护
 
@@ -170,11 +171,11 @@ BigQuant人工智能量化投资交易平台(https://bigquant.com), 包括量化
 
 ○ 结合 MutatingWebhook 完成开发环境 (即用户 Pod) 的管理，引入 lxcfs 解决 cgroups 无法显示 Pod 真实负载问题
 
-(8) 并行文件系统：
+(8) 并行文件系统搭建与维护
 
 ○ 引入 BeeGFS 并行文件系统，提升数据读取速度，熟悉 BeeGFS 的搭建与维护，并深入分析 BeeGFS 的工作原理
 
-(9) 多语言开发经验：
+(9) 多语言开发经验
 
 ○ 具有 Golang 和 Python 的开发经验
 
@@ -188,9 +189,9 @@ BigQuant人工智能量化投资交易平台(https://bigquant.com), 包括量化
 
 ○ 优化网关，采用 OpenResty + Lua + Redis 替换原 JupyterHub 部分
 
-具有使用 Nginx Ingress 的经验
+○ 具有使用 Nginx Ingress 的经验
 
-熟悉 Nginx 的配置和使用
+○ 熟悉 Nginx 的配置和使用
 """
         title = "BigQuant AI 量化平台"
         url = "https://bigquant.com/"
