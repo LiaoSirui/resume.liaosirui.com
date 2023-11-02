@@ -121,12 +121,12 @@ disableSitemap = true
 [[params.jobs.list]]
     company  = "成都宽邦科技有限公司"
     dates    = "2020.12 - 2022.10"
-    details  = "在职期间参与公司产品研发与项目, 包括 BigQuant AI 量化平台 (产品) 及 B 端项目的维护。负责后端开发工作和维护, **主要技术栈: Kuberntes、Prometheus Stack、ES Log Stack、OpenTelementery / Jaeger、BeeGFS(并行文件系统)、Golang / Gin (Golang 开发)、Python / Fastapi / Django (Python 开发) 等**。"
+    details  = "在职期间参与公司产品研发与项目, 包括 BigQuant AI 量化平台 (产品) 及 B 端项目的维护；负责后端开发工作和维护, **主要技术栈: Kuberntes、Prometheus Stack、ES Log Stack、OpenTelementery / Jaeger、BeeGFS(并行文件系统)、Golang / Gin (Golang 开发)、Python / Fastapi / Django (Python 开发) 等**"
     position = "后端开发工程 / 运维研发工程师"
 [[params.jobs.list]]
     company  = "北京凝思软件股份有限责任公司四川分公司"
     dates    = "2020.06 - 2020.11"
-    details  = "在职期间参与公司新开发的凝思安全容器系统项目, 负责底层网络实现, 使用 **OpenVSwitch** 和 **Golang** 构建容器运行的网络环境。"
+    details  = "在职期间参与公司新开发的凝思安全容器系统项目, 负责底层网络实现, 使用 **OpenVSwitch** 和 **Golang** 构建容器运行的网络环境"
     position = "软件开发工程师"
 
 [params.projects]
@@ -135,7 +135,9 @@ disableSitemap = true
     title  = "Projects"
 
     [[params.projects.list]]
-        tagline = """BigQuant 人工智能量化投资交易平台(https://bigquant.com), 包括量化策略平台的开发运营和 PAAS 平台的运营维护, 产品主要为用户提供量化投研环境。主要工作: 
+        tagline = """BigQuant 人工智能量化投资交易平台(https://bigquant.com), 包括量化策略平台的开发运营和 PAAS 平台的运营维护, 产品主要为用户提供量化投研环境
+
+主要工作: 
 
 (1) CI/CD 环境搭建与制品管理
 
@@ -187,7 +189,7 @@ disableSitemap = true
 
 (10) 日常运维工作：
 
-○ 参与日常运维工作，具备使用 Ansible 自动化运维工具、IPTables/IPvs 调试、JumpServer 等经验。
+○ 参与日常运维工作，具备使用 Ansible 自动化运维工具、IPTables/IPvs 调试、JumpServer 等经验
 
 ○ 优化网关，采用 OpenResty + Lua + Redis 替换原 JupyterHub 部分
 
@@ -199,7 +201,12 @@ disableSitemap = true
         url = "https://bigquant.com/"
 
     [[params.projects.list]]
-        tagline = "凝思安全容器系统软件(https://www.linx-info.com)是基于凝思安全操作系统完全自主研发, 具备容器隔离特性的容器产品, 同时采用了一系列的安全技术避免了现有容器技术的安全风险。主要工作: 负责底层网络实现, 使用 **OpenVSwitch** 和 **Golang** 构建容器运行的网络环境, 提供网络流量控制等功能"
+        tagline = """凝思安全容器系统软件(https://www.linx-info.com)是基于凝思安全操作系统完全自主研发, 具备容器隔离特性的容器产品, 同时采用了一系列的安全技术避免了现有容器技术的安全风险
+
+主要工作:
+
+○ 负责底层网络实现, 使用 OpenVSwitch 和 Golang 构建容器运行的网络环境, 提供网络流量控制等功能
+"""
         title   = "凝思安全容器系统"
         url     = "https://www.linx-info.com"
 
