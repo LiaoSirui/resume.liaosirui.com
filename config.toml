@@ -135,7 +135,7 @@ disableSitemap = true
     title  = "Projects"
 
     [[params.projects.list]]
-        tagline = """BigQuant人工智能量化投资交易平台(https://bigquant.com), 包括量化策略平台的开发运营和 PAAS 平台的运营维护, 为用户提供开发环境。主要工作: 
+        tagline = """BigQuant 人工智能量化投资交易平台(https://bigquant.com), 包括量化策略平台的开发运营和 PAAS 平台的运营维护, 产品主要为用户提供量化投研环境。主要工作: 
 
 (1) CI/CD 环境搭建与制品管理
 
@@ -146,6 +146,8 @@ disableSitemap = true
 (2) Kubernetes 基础和开发 Kubernetes 管理面板
 
 ○ 熟悉 Kubernetes 基础以及 Docker / Containerd, 有过 Docker 升级至 Containerd 经验, 熟悉容器技术原理
+
+○ 有使用 Calico、Cilium CNI 的经验, 熟悉 LVS、MetalLB、KeepAlived 负载均衡技术
 
 ○ 基于 OKD Console (OpenShift 的开源版本) 构建 Kubernetes 管理面板，进行深度定制，包括镜像管理和结合 Dex IdP 进行 OAuth 认证等的定制化开发和维护
 
@@ -189,9 +191,9 @@ disableSitemap = true
 
 ○ 优化网关，采用 OpenResty + Lua + Redis 替换原 JupyterHub 部分
 
-○ 具有使用 Nginx Ingress 的经验
+○ 具有使用 Nginx Ingress 的经验(包括 nginxc、kubernetes 社区版本)
 
-○ 熟悉 Nginx 的配置和使用
+○ 熟悉 Nginx / Openresty 的配置和使用, 有编译模块的经验
 """
         title = "BigQuant AI 量化平台"
         url = "https://bigquant.com/"
