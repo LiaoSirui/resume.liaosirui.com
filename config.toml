@@ -120,7 +120,7 @@ disableSitemap = true
 
 [[params.jobs.list]]
     company  = "成都宽邦科技有限公司"
-    dates    = "2020.12 - 2022.10"
+    dates    = "2020.12 - 2023.12"
     details  = "在职期间参与公司产品研发与项目, 包括 BigQuant AI 量化平台 (产品) 及 B 端项目的维护；负责后端开发工作和维护, **主要技术栈: Kuberntes、Prometheus Stack、ES Log Stack、OpenTelementery / Jaeger、BeeGFS(并行文件系统)、Golang / Gin (Golang 开发)、Python / Fastapi / Django (Python 开发) 等**"
     position = "后端开发工程 / 运维研发工程师"
 [[params.jobs.list]]
@@ -171,7 +171,7 @@ disableSitemap = true
 
 (7) Operator 开发与环境管理
 
-○ 熟练开发 Operator, 独立完成用户权限控制和镜像上传功能
+○ 熟悉开发 Operator, 独立完成用户权限控制和镜像上传功能
 
 ○ 结合 MutatingWebhook 完成开发环境 (即用户 Pod) 的管理，引入 lxcfs 解决 cgroups 无法显示 Pod 真实负载问题
 
