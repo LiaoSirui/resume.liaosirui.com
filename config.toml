@@ -81,16 +81,12 @@ disableSitemap = true
     title  = "Interests"
 
     [[params.interests.list]]
-        interest = "(1) 容器相关: Docker / K8s / Docker Compose"
+        interest = """○ 熟练掌握Kubernetes和容器化技术，能够构建、优化和管理容器化工作负载，能编写 Operator 优化部署流程，提高软件交付效率
 
-    [[params.interests.list]]
-        interest = "(2) Linux 基础, 了解 Centos / Alpine / RockyLinux 等"
+○ 具备 CI/CD 实践经验，能够使用 K8s 和相关工具实施 CI/CD 流程，提高团队软件交付效率
 
-    [[params.interests.list]]
-        interest = "(3) Python 编程和 Golang 编程经验"
-
-    [[params.interests.list]]
-        interest = "(4) 运维与监控: Ansible / Sealos / Prometheus + Grafana"
+○ 具备自我驱动和高效完成任务的能力，同时具备自律和自我管理能力，能够在压力下保持冷静并取得良好的工作成果
+"""
 
 [params.summary]
     enable = true
@@ -121,12 +117,12 @@ disableSitemap = true
 [[params.jobs.list]]
     company  = "成都宽邦科技有限公司"
     dates    = "2020.12 - 2023.12"
-    details  = "在职期间参与公司产品研发与项目, 包括 BigQuant AI 量化平台 (产品) 及 B 端项目的维护；负责后端开发工作和维护, **主要技术栈: Kuberntes、Prometheus Stack、ES Log Stack、OpenTelementery / Jaeger、BeeGFS(并行文件系统)、Golang / Gin (Golang 开发)、Python / Fastapi / Django (Python 开发) 等**"
+    details  = "在职期间参与公司产品研发与项目, 包括 BigQuant AI 量化平台 (产品) 及 B 端项目的维护；负责后端开发工作和维护, 主要技术栈: Kuberntes、Prometheus Stack、ES Log Stack、OpenTelementery / Jaeger、BeeGFS(并行文件系统)、Golang / Gin (Golang 开发)、Python / Fastapi / Django (Python 开发) 等"
     position = "后端开发工程 / 运维研发工程师"
 [[params.jobs.list]]
     company  = "北京凝思软件股份有限责任公司四川分公司"
     dates    = "2020.06 - 2020.11"
-    details  = "在职期间参与公司新开发的凝思安全容器系统项目, 负责底层网络实现, 使用 **OpenVSwitch** 和 **Golang** 构建容器运行的网络环境"
+    details  = "在公司的凝思安全容器系统项目中，负责底层网络实现。利用 OpenVSwitch 和 Golang 构建容器运行的网络环境，确保了容器的网络连通性和稳定性及安全性要求，对容器间的网络包进行三层和四层的限制"
     position = "软件开发工程师"
 
 [params.projects]
