@@ -47,7 +47,13 @@ disableSitemap = true
             class = "email"
             icon  = "fa-blog"
             title = "个人博客: blog.liaosirui.com"
-            url   = "https://github.com/LiaoSirui/blog.liaosirui.com"
+            url   = "https://blog.liaosirui.com"
+
+        [[params.contact.list]]
+            class = "email"
+            icon  = "fa-blog"
+            title = "GitHub: github.com/LiaoSirui"
+            url   = "https://github.com/LiaoSirui"
 
 [params.education]
     enable = true
@@ -76,18 +82,6 @@ disableSitemap = true
         language = "英语六级"
         level    = "423分"
 
-[params.interests]
-    enable = true
-    title  = "Interests"
-
-    [[params.interests.list]]
-        interest = """○ 熟练掌握Kubernetes和容器化技术，能够构建、优化和管理容器化工作负载，能编写 Operator 优化部署流程，提高软件交付效率
-
-○ 具备 CI/CD 实践经验，能够使用 K8s 和相关工具实施 CI/CD 流程，提高团队软件交付效率
-
-○ 具备自我驱动和高效完成任务的能力，同时具备自律和自我管理能力，能够在压力下保持冷静并取得良好的工作成果
-"""
-
 [params.summary]
     enable = true
     icon = "fa-user"
@@ -99,13 +93,11 @@ disableSitemap = true
 
 主要技能: 
 
-○ Kubernetes 技术栈: 熟练使用 Kubernetes 进行容器编排和管理, 包括部署、调度、监控和维护
+○ 熟练掌握Kubernetes和容器化技术, 能够构建、优化和管理容器化工作负载, 能编写 Operator 优化部署流程，提高软件交付效率
 
-○ Kubernetes Operator 开发: 在 Kubernetes 上设计、开发和维护自定义的 Operators, 以简化和自动化应用程序的运维工作
+○ 具备 CI/CD 实践经验，能够使用 K8s 和相关工具实施 CI/CD 流程，提高团队软件交付效率
 
-○ 容器化技术: 熟悉 Docker / Containerd / Podman 和容器化应用程序, 能够构建、优化和管理容器化工作负载
-
-○ 持续集成/持续部署 (CI/CD): 使用 K8s 和相关工具实施 CI/CD 流程, 提高软件交付效率
+○ 具备自我驱动和高效完成任务的能力，同时具备自律和自我管理能力，能够在压力下保持冷静并取得良好的工作成果
 """
     title = "Career Profile"
 
@@ -117,13 +109,13 @@ disableSitemap = true
 [[params.jobs.list]]
     company  = "成都宽邦科技有限公司"
     dates    = "2020.12 - 2023.12"
-    details  = "在职期间参与公司产品研发与项目, 包括 BigQuant AI 量化平台 (产品) 及 B 端项目的维护；负责后端开发工作和维护, 主要技术栈: Kuberntes、Prometheus Stack、ES Log Stack、OpenTelementery / Jaeger、BeeGFS(并行文件系统)、Golang / Gin (Golang 开发)、Python / Fastapi / Django (Python 开发) 等"
-    position = "后端开发工程 / 运维研发工程师"
+    details  = "在职期间参与公司产品研发与项目, 包括 BigQuant AI 量化平台 (产品) 及 B 端项目的维护；负责后端开发工作和维护, 参与公司内部 DevOps 流程建设, 主要技术栈: Kuberntes、Prometheus Stack、ES Log Stack、OpenTelementery / Jaeger、BeeGFS(并行文件系统)、Golang / Gin (Golang 开发)、Python / Fastapi / Django (Python 开发) 等"
+    position = "后端开发工程师 / 运维研发工程师"
 [[params.jobs.list]]
     company  = "北京凝思软件股份有限责任公司四川分公司"
     dates    = "2020.06 - 2020.11"
-    details  = "在公司的凝思安全容器系统项目中，负责底层网络实现。利用 OpenVSwitch 和 Golang 构建容器运行的网络环境，确保了容器的网络连通性和稳定性及安全性要求，对容器间的网络包进行三层和四层的限制"
-    position = "软件开发工程师"
+    details  = "在公司的凝思安全容器系统项目中，负责底层网络实现。凝思安全容器系统软件(https://www.linx-info.com )是基于凝思安全操作系统完全自主研发, 具备容器隔离特性的容器产品, 同时采用了一系列的安全技术避免了现有容器技术的安全风险。主要工作: 负责底层网络实现, 使用 OpenVSwitch  和 Golang  构建容器运行的网络环境, 提供三层、四层网络流量控制"
+    position = "容器研发工程师"
 
 [params.projects]
     enable = true
