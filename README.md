@@ -4,8 +4,8 @@
 个人简历
 </p>
 <p align="center">
-  <img src="https://img.shields.io/badge/Maintainer-cyril@liaosirui.com-blue.svg">
-  <img src="https://img.shields.io/badge/Language-hugo-green.svg">
+  <img src="https://img.shields.io/badge/Maintainer-cyril@liaosirui.com-blue.svg" alt="Maintainer">
+  <img src="https://img.shields.io/badge/Language-hugo-green.svg" alt="Language">
 </p>
 </div>
 

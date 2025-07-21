@@ -15,7 +15,7 @@ disableSitemap = true
         avatar  = "srliao.png"
         en_name = "Sirui Liao"
         name    = "廖思睿"
-        tagline = "后台开发工程师"
+        tagline = "运维研发"
 
     [params.contact]
         enable = true
@@ -23,13 +23,13 @@ disableSitemap = true
         [[params.contact.list]]
             class = "email"
             icon  = "fa-sex"
-            title = "性别/年龄: 男 25"
+            title = "性别/年龄: 男 27"
             url   = ""
 
         [[params.contact.list]]
             class = "email"
             icon  = "fa-blog"
-            title = "3 年工作经验"
+            title = "5 年工作经验"
 
         [[params.contact.list]]
             class = "email"
@@ -49,163 +49,99 @@ disableSitemap = true
             title = "个人博客: blog.liaosirui.com"
             url   = "https://blog.liaosirui.com"
 
-        [[params.contact.list]]
-            class = "email"
-            icon  = "fa-blog"
-            title = "GitHub: github.com/LiaoSirui"
-            url   = "https://github.com/LiaoSirui"
+    [params.education]
+        enable = true
+        title  = "Education"
 
-[params.education]
-    enable = true
-    title  = "Education"
+        [[params.education.list]]
+            college = "成都理工大学"
+            dates   = "2016.09 - 2020.06"
+            degree  = "物联网工程 本科"
+            gpa     = "GPA: 3.6/5.0(专业前 10%)"
 
-    [[params.education.list]]
-        college = "成都理工大学"
-        dates   = "2016.09 - 2020.06"
-        degree  = "物联网工程 本科"
-        gpa     = "GPA: 3.6/5.0(专业前 10%)"
+        [[params.education.list]]
+            college = "四川省绵阳南山中学"
+            dates   = "2013.09 - 2016.06"
+            degree  = "高中"
 
-    [[params.education.list]]
-        college = "四川省绵阳南山中学"
-        dates   = "2013.09 - 2016.06"
-        degree  = "高中"
-
-[params.language]
-    enable = true
-    title  = "Languages"
-
-    [[params.language.list]]
-        language = "英语四级"
-        level    = "564分"
-
-    [[params.language.list]]
-        language = "英语六级"
-        level    = "423分"
-
-[params.summary]
-    enable = true
-    icon = "fa-user"
-    summary = """毕业于成都理工大学, 物联网工程专业, 获得成都理工大学荣誉学士学位 (优等生学位), 获得成都理工大学优秀毕业生, 主修课程: 程序设计基础(C++)、JAVA 程序开发、嵌入式 Linux 开发、数据库原理、FPGA 设计及其他计算机基础课程
-
-证书:
-
-○ 软件设计师(中级, 2023 年上半年)
+    [params.summary]
+        enable = true
+        icon = "fa-user"
+        summary = """毕业于成都理工大学, 物联网工程专业, 成都理工大学优秀毕业生、成都理工大学荣誉学士学位 (优等生学位)
 
 主要技能: 
 
-○ 熟练掌握Kubernetes和容器化技术, 能够构建、优化和管理容器化工作负载, 能编写 Operator 优化部署流程，提高软件交付效率
+○ 基于 Kubernetes 和容器化技术进行投研开发环境管理, 深度整合阿里云等云商构建混合云算力调度
 
-○ 具备 CI/CD 实践经验，能够使用 K8s 和相关工具实施 CI/CD 流程，提高团队软件交付效率
+○ 建设高性能基础设施, 支撑因子、数据系统, 包括: 并行文件系统、IB 网络、K8s / Airflow 调度框架
 
-○ 具备自我驱动和高效完成任务的能力，同时具备自律和自我管理能力，能够在压力下保持冷静并取得良好的工作成果
+○ 深度参与过交易机房网络构建、托管机器管理、高频机调优、低延迟网卡实际等
 """
-    title = "Career Profile"
+        title = "Career Profile"
 
-[params.experiences]
-    enable = true
-    icon   = "fa-briefcase"
-    title  = "Experiences"
+    [params.experiences]
+        enable = true
+        icon   = "fa-briefcase"
+        title  = "Experiences"
 
-[[params.jobs.list]]
-    company  = "成都宽邦科技有限公司"
-    dates    = "2020.12 - 2023.12"
-    details  = "在职期间参与公司产品研发与项目, 包括 BigQuant AI 量化平台 (产品) 及 B 端项目的维护；负责后端开发工作和维护, 参与公司内部 DevOps 流程建设, 主要技术栈: Kuberntes、Prometheus Stack、ES Log Stack、OpenTelementery / Jaeger、BeeGFS(并行文件系统)、Golang / Gin (Golang 开发)、Python / Fastapi / Django (Python 开发) 等"
-    position = "后端开发工程师 / 运维研发工程师"
-[[params.jobs.list]]
-    company  = "北京凝思软件股份有限责任公司四川分公司"
-    dates    = "2020.06 - 2020.11"
-    details  = "在公司的凝思安全容器系统项目中，负责底层网络实现。凝思安全容器系统软件(https://www.linx-info.com )是基于凝思安全操作系统完全自主研发, 具备容器隔离特性的容器产品, 同时采用了一系列的安全技术避免了现有容器技术的安全风险。主要工作: 负责底层网络实现, 使用 OpenVSwitch  和 Golang  构建容器运行的网络环境, 提供三层、四层网络流量控制"
-    position = "容器研发工程师"
+    [[params.jobs.list]]
+        company  = "上海量魁资产管理有限公司"
+        dates    = "2024.03 - 至今"
+        details  = "负责公司因子平台、实时行情、数据平台、交易平台等业务的基础设施, 建设基于 K8s 的投研开发环境、并行存储、交易专线网络等"
+        position = "运维-基础设施组负责人"
+    [[params.jobs.list]]
+        company  = "成都宽邦科技有限公司"
+        dates    = "2020.12 - 2023.12"
+        details  = "参与 BigQuant AI 量化平台 (https://bigquant.com)后端开发及运维工作、参与公司内部 DevOps 流程建设"
+        position = "后端开发工程师 / 运维研发工程师"
+    [[params.jobs.list]]
+        company  = "北京凝思软件股份有限责任公司四川分公司"
+        dates    = "2020.06 - 2020.11"
+        details  = "在公司的凝思安全容器系统项目中，负责底层网络实现"
+        position = "容器研发工程师"
 
-[params.projects]
-    enable = true
-    icon   = "fa-archive"
-    title  = "Projects"
-
-    [[params.projects.list]]
-        tagline = """BigQuant 人工智能量化投资交易平台(https://bigquant.com), 包括量化策略平台的开发运营和 PAAS 平台的运营维护, 产品主要为用户提供量化投研环境
-
-主要工作: 
-
-(1) CI/CD 环境搭建与制品管理
-
-○ 在 GitLab 和 GitLab Runner 基础上构建 CI 环境，利用 Ansible 构建 CD 环境
-
-○ 使用 Nexus 和 Artifactory 管理内部镜像源，熟悉 Harbor 的搭建与维护，利用 Harbor 进行镜像管理
-
-(2) Kubernetes 基础和开发 Kubernetes 管理面板
-
-○ 熟悉 Kubernetes 基础以及 Docker / Containerd, 有过 Docker 升级至 Containerd 经验, 熟悉容器技术原理
-
-○ 有使用 Calico、Cilium CNI 的经验, 熟悉 LVS、MetalLB、KeepAlived 负载均衡技术
-
-○ 基于 OKD Console (OpenShift 的开源版本) 构建 Kubernetes 管理面板，进行深度定制，包括镜像管理和结合 Dex IdP 进行 OAuth 认证等的定制化开发和维护
-
-(3) 线上环境监控与告警
-
-○ 利用 Prometheus、Grafana 和 Alertmanager 构建线上环境的监控与告警系统，确保系统稳定性和及时发现问题
-
-(4) 日志系统搭建与维护
-
-○ 使用 Vector 和 ElasticSearch 构建日志系统，熟悉 ES master/data/client 节点的搭建与维护，使用 Vector 进行节点日志采集和 remap 处理
-
-(5) 可视化链路追踪系统
-
-○ 基于 OpenTelemetry 和 Jaeger 构建可视化链路追踪系统，熟悉 Jaeger 的搭建与维护，使用 OpenTelemetry 进行链路追踪数据采集
-
-(6) Service Mesh 环境搭建
-
-○ 构建基于 Istio 的 Service Mesh 环境，熟悉 Istio 的搭建与维护，应用于流量管理、流量镜像、流量限制、流量熔断、流量重试和流量注入等场景
-
-(7) Operator 开发与环境管理
-
-○ 熟悉开发 Operator, 独立完成用户权限控制和镜像上传功能
-
-○ 结合 MutatingWebhook 完成开发环境 (即用户 Pod) 的管理，引入 lxcfs 解决 cgroups 无法显示 Pod 真实负载问题
-
-(8) 并行文件系统搭建与维护
-
-○ 引入 BeeGFS 并行文件系统，提升数据读取速度，熟悉 BeeGFS 的搭建与维护，并深入分析 BeeGFS 的工作原理
-
-(9) 多语言开发经验
-
-○ 具有 Golang 和 Python 的开发经验
-
-○ 熟悉 Gin Web 后端的开发
-
-○ 引入 FastAPI 作为后端框架，参与公司基础库的编写
-
-(10) 日常运维工作：
-
-○ 参与日常运维工作，具备使用 Ansible 自动化运维工具、IPTables/IPvs 调试、JumpServer 等经验
-
-○ 优化网关，采用 OpenResty + Lua + Redis 替换原 JupyterHub 部分
-
-○ 具有使用 Nginx Ingress 的经验(包括 nginxc、kubernetes 社区版本)
-
-○ 熟悉 Nginx / Openresty 的配置和使用, 有编译模块的经验
+    [params.projects]
+        enable = true
+        icon   = "fa-archive"
+        intro  = "上海量魁私募基金基础设施建设主要工作成果："
+        title  = "Projects"
+        [[params.projects.list]]
+            tagline = """
+- 使用 K8s 抽象底层机器资源，对 K8s 进行扩展开发，对用户开发环境使用容器进行统一管理，降低用户提交任务的复杂度。
+- 引入并行文件系统、列式存储格式，加速用户读取逐笔、快照数据（原方案为 ClickHouse）。
+- 统一调度 CPU / GPU 资源，自动注入运行参数调用 CPU SIMD 加速。
+- 交易策略任务由 K8s 进行调度，结合监控系统增强可观测性。
+- 结合阿里云等云商的按需付费实例扩充本地算力，用较低成本解决算力需求峰值。
 """
-        title = "BigQuant AI 量化平台"
-        url = "https://bigquant.com/"
-
-    [[params.projects.list]]
-        tagline = """凝思安全容器系统软件(https://www.linx-info.com)是基于凝思安全操作系统完全自主研发, 具备容器隔离特性的容器产品, 同时采用了一系列的安全技术避免了现有容器技术的安全风险
-
-主要工作:
-
-○ 负责底层网络实现, 使用 OpenVSwitch 和 Golang 构建容器运行的网络环境, 提供网络流量控制等功能
+            title   = "基于 K8s 的投研开发环境"
+        [[params.projects.list]]
+            tagline = """
+- 统一使用瘦终端访问内外网分离的云桌面办公，保护公司代码、数据等核心数据资产
+- 其他公司内办公软件的整合
 """
-        title   = "凝思安全容器系统"
-        url     = "https://www.linx-info.com"
+            title   = "云桌面办公环境"
+        [[params.projects.list]]
+            tagline = """
+- 构建网络、消息队列设施，支撑构建实时行情回传（仿真需求）
+- 负责 Airflow 调度系统的运维、监控等，支撑数据、因子的任务
+"""
+            title   = "公司内部基础设施支持"
+        [[params.projects.list]]
+            tagline = """
+- 构建本地机房、专线、交易所托管机房的一体化网络结构
+- 基于 14900KS、9950X 等交易高频机的调优
+- 参与公司交易低延迟网络（Solarflare、Cisco 等）网络解决方案铺设
+"""
+            title   = "交易机器、网络管理"
 
-[params.skills]
-    enable = false
-    icon   = "fa-rocket"
-    title  = "Skills & Proficiency"
+    [params.skills]
+        enable = false
+        icon   = "fa-rocket"
+        title  = "Skills & Proficiency"
 
-    [[params.skills.list]]
-        level = "98%"
-        skill = "Python & Django"
+        [[params.skills.list]]
+            level = "98%"
+            skill = "Python & Django"
 
-[params.footer]
-    copyright = '[川公网安备51010702043024号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51010702043024) | [蜀ICP备17003301号-1](http://beian.miit.gov.cn/)'
+    [params.footer]
+        copyright = '[川公网安备51010702043024号](http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51010702043024) | [蜀ICP备17003301号-1](http://beian.miit.gov.cn/)'
