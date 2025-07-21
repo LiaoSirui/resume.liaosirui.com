@@ -131,6 +131,7 @@ disableSitemap = true
 - 构建本地机房、专线、交易所托管机房的一体化网络结构
 - 基于 14900KS、9950X 等交易高频机的调优
 - 参与公司交易低延迟网络（Solarflare、Cisco 等）网络解决方案铺设
+- 整合 K8s 中的日志系统（ES Stack）、监控系统（Prometheus+VictoriaMetrics）对生产交易机器可观测分析
 """
             title   = "交易机器、网络管理"
 
