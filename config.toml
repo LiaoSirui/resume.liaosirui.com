@@ -85,7 +85,7 @@ disableSitemap = true
         title  = "Experiences"
 
     [[params.jobs.list]]
-        company  = "上海量魁资产管理有限公司"
+        company  = "上海LK私募基金管理有限公司"
         dates    = "2024.03 - 至今"
         details  = "负责公司因子平台、实时行情、数据平台、交易平台等业务的基础设施, 建设基于 K8s 的投研开发环境、并行存储、交易专线网络等"
         position = "运维-基础设施组负责人"
@@ -103,7 +103,7 @@ disableSitemap = true
     [params.projects]
         enable = true
         icon   = "fa-archive"
-        intro  = "上海量魁私募基金基础设施建设主要工作成果："
+        intro  = "上海LK私募基金基础设施建设主要工作成果："
         title  = "Projects"
         [[params.projects.list]]
             tagline = """
